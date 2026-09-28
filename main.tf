@@ -8,7 +8,7 @@ resource "aws_vpc" "my-vpc" {
   }
 }
 
-# Create Web Public Subnet
+# Create Web Public Subnet test
 resource "aws_subnet" "web-subnet" {
   vpc_id                  = aws_vpc.my-vpc.id
   cidr_block              = "10.0.1.0/24"
